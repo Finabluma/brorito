@@ -1,9 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'lavolta',
+    title: 'Cocina mediterránea * La Volta',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'es',
     },
     meta: [
       { charset: 'utf-8' },
@@ -11,11 +11,15 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://use.typekit.net/hnq7yja.css' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: [
+    '~/assets/css/main.css'
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -38,6 +42,15 @@ export default {
     // https://cloudinary.nuxtjs.org/setup
     '@nuxtjs/cloudinary'
   ],
+
+  // Defaults options
+  tailwindcss: {
+    jit: true,
+    cssPath: '~/assets/css/tailwind.css',
+    configPath: 'tailwind.config.js',
+    exposeConfig: true,
+    viewer: true,
+  },
 
   apollo: {
     clientConfigs: {
