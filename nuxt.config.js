@@ -16,6 +16,8 @@ export default {
       { rel: 'stylesheet', href: 'https://use.typekit.net/hnq7yja.css' }],
   },
 
+  loading: false,
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/main.css'
@@ -31,6 +33,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://color-mode.nuxtjs.org/
+    '@nuxtjs/color-mode',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -63,7 +67,7 @@ export default {
   image: {
     provider: 'cloudinary',
     cloudinary: {
-      baseURL: 'https://res.cloudinary.com/duamwzbgs/image/upload/'
+      baseURL: process.env.CLOUDINARY_URL
     },
   },
 
@@ -72,6 +76,12 @@ export default {
     cloudName: process.env.CLOUDINARY_NAME,
     apiKey: process.env.CLOUDINARY_KEY,
     apiSecret: process.env.CLOUDINARY_SECRET,
+  },
+
+  colorMode: {
+    classPrefix: '',
+    classSuffix: '',
+    preference: 'light',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

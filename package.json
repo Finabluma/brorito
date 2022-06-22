@@ -24,10 +24,13 @@
   "devDependencies": {
     "@nuxt/image": "^0.6.2",
     "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@nuxtjs/color-mode": "^3.1.4",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "eslint-config-prettier": "^8.3.0",
     "graphql-tag": "^2.12.6",
+    "nuxt-video-player": "^1.0.17",
     "postcss": "^8.4.4",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "tailwindcss-dark-mode": "^1.1.7"
   }
 }
