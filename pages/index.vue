@@ -72,7 +72,6 @@
           </template>
         </app-aside>
       </div>
-      <!-- <prensa-teaser :prensas="prensas" /> -->
     </main>
     <app-footer />
   </div>
