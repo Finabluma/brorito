@@ -280,6 +280,7 @@ export default {
 
     & li {
       @apply md:mr-6
+      md:w-6/12
       xl:mb-3;
 
       &:last-child {
@@ -288,8 +289,8 @@ export default {
 
       & a {
         @apply md:flex-row
-        md:items-start
-        md:justify-around
+        md:items-center
+        md:justify-center
 
         md:mb-0
         md:py-2
