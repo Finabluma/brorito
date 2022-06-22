@@ -233,7 +233,7 @@ section {
     & aside {
       @apply my-8;
       & h2 {
-        @apply text-xl px-1;
+        @apply text-xl;
       }
 
       & .tags {
@@ -244,6 +244,7 @@ section {
           text-base
           lowercase
           leading-7
+          px-1
           flex
           items-center
           content-after;
