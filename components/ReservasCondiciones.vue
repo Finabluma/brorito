@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "CondicionesReservas",
+  name: 'CondicionesReservas',
   props: {
     condicionReserva: {
       type: Object,
@@ -24,24 +24,27 @@ export default {
   },
   computed: {
     condicionData() {
-      return this.condicionReserva.data;
+      return this.condicionReserva.data
     },
   },
-};
+}
 </script>
 
 <style lang="postcss" scoped>
 section {
-  @apply bg-white/30
-  pt-5
+  @apply pt-5
   pb-3
   px-2
   border-b
   border-gray-100
   shadow-slate300
+  bg-gradient-radial
+  from-gray-100
+  to-gray-300
   sm:px-5
   dark:shadow-md
-  dark:bg-gray-700
+  dark:from-gray-700
+  dark:to-gray-800
   dark:border-gray-500;
 
   & h2 {
@@ -90,7 +93,7 @@ section {
       border-white/80
         ring-4
       ring-white/20
-      bg-white
+      bg-white/50
         shadow
         md:w-2/5
         dark:border-gray-500

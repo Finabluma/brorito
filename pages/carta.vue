@@ -232,7 +232,7 @@ export default {
     @apply w-11/12
     mx-auto
     pt-6
-    pb-12
+    md:pb-8
     md:w-10/12
     lg:w-8/12
     xl:w-7/12;

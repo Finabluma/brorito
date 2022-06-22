@@ -119,19 +119,13 @@ export default {
               lg: ml-0;
             }
           }
-
-          /* & .lead {
-            @apply font-hero
-            font-light
-            text-paragraph;
-          } */
         }
       }
     }
 
     & section:last-of-type {
       @apply pt-5
-      w-full
+      w-11/12
       mx-auto
       flex
       flex-col

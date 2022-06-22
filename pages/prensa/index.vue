@@ -14,9 +14,8 @@
         </template>
         <p>
           Tanto en nuestra cocina como en nuestra oferta de vinos encontrarás
-          una variedad de productos que esperamos sean de tu agrado. Te
-          inivitamos a consultar nuestra carta. No dudes en preguntarnos en caso
-          de duda. Bienvenid@ :)
+          una variedad de productos que esperamos sean de tu agrado. Bienvenid@
+          :)
         </p>
         <template slot="footer">
           <app-button
@@ -79,6 +78,7 @@ export default {
     & p {
       @apply px-2
       mx-auto
+      w-11/12
       sm:w-10/12
       md:w-10/12
       lg:w-9/12
