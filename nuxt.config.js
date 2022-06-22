@@ -1,4 +1,8 @@
 export default {
+  env: {
+    MAPBOX_ACCESS_TOKEN: process.env.MAPBOX_ACCESS_TOKEN,
+    MAPBOX_STYLE: process.env.MAPBOX_STYLE
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Cocina mediterránea * La Volta',
