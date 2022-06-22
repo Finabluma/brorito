@@ -132,8 +132,8 @@ export default {
       justify-center
       items-center
       sm:w-9/12
-      md:w-8/12
-      lg:w-6/12
+      lg:w-8/12
+      xl:w-7/12
       2xl:px-10;
 
       & h2,

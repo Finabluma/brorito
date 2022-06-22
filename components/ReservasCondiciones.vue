@@ -36,15 +36,15 @@ section {
   pb-3
   px-2
   border-b
-  border-gray-100
+  border-gray-400/50
   shadow-slate300
-  bg-gradient-radial
-  from-gray-100
-  to-gray-300
+  bg-gradient-to-b
+  from-gray-400/20
+  to-gray-300/50
   sm:px-5
   dark:shadow-md
-  dark:from-gray-700
-  dark:to-gray-800
+  dark:from-gray-800/60
+  dark:to-gray-600/80
   dark:border-gray-500;
 
   & h2 {
@@ -84,19 +84,20 @@ section {
       md:flex-wrap;
 
       & li {
-        @apply text-lg
+        @apply text-paragraph
         font-hero
         font-light
         mb-5
         p-4
         border
-      border-white/80
+        border-gray-200/80
         ring-4
-      ring-white/20
-      bg-white/50
+        ring-gray-400/20
+        bg-white/50
         shadow
         md:w-2/5
         dark:border-gray-500
+        dark:ring-white/30
         dark:bg-white/10;
 
         &:nth-child(odd) {
