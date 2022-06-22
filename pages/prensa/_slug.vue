@@ -44,7 +44,7 @@ export default {
 }
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 #post {
   @apply bg-gray-300 dark:bg-gray-700
   min-h-screen
