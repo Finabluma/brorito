@@ -215,8 +215,8 @@ export default {
               text-altheader
               leading-tight
               border-b
-            border-black/20
-            dark:border-white/40;
+              border-black/20
+              dark:border-white/40;
             }
 
             & ul {
@@ -313,7 +313,7 @@ export default {
             md:leading-tight
             md:pb-0.5
             md:border-b-0
-            lg:text-4xl;
+            lg:text-3xl;
           }
 
           & ul {
