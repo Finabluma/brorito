@@ -358,7 +358,6 @@ section {
 
         & article {
           @apply w-full
-          mb-2
           mx-0
           md:w-6/12
           md:mb-2;
@@ -369,7 +368,7 @@ section {
 
           & a {
             @apply flex
-            justify-around
+            justify-center
             items-center
             md:justify-center
             md:border
@@ -386,8 +385,7 @@ section {
               @apply w-20
               h-20
               overflow-hidden
-              mr-1
-              sm:mr-6
+              mr-2
               md:mr-2
               lg:w-24
               lg:h-24

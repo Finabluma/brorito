@@ -148,13 +148,13 @@ export default {
 
   & .list-articles {
     @apply p-2
-    mb-4
+    mb-2
     lg:mb-16;
 
     & ul {
       & li {
-        @apply mb-6
-        md:mb-4;
+        @apply py-1
+        md:mb-1;
 
         & a {
           @apply flex
