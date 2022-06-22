@@ -98,7 +98,7 @@ export default {
     }
 
     & p {
-      @apply font-hero font-light text-paragraph mb-5 text-center;
+      @apply font-hero font-light text-xl mb-5 text-center;
     }
   }
 }
