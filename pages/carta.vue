@@ -60,7 +60,7 @@
             title="Prensa"
             subtitle="así vemos las cosas"
             layout="aside"
-          ></prensa-teaser>
+          />
           <template slot="footer">
             <app-button
               to="prensa"
@@ -88,7 +88,7 @@ import {
   VinosTintos,
   Cavas,
 } from '~/graphql/queries/CartaRestaurante'
-import PrensaQuery from '~/graphql/queries/prensa'
+import { PrensaQuery } from '~/graphql/queries/prensa'
 import Seccion from '~/graphql/queries/Seccion'
 
 import AppHeader from '~/components/AppHeader.vue'
